@@ -1,0 +1,109 @@
+.pricing-section {
+    background-color: #0e0e0e;
+    color: #fff;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .pricing-heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pricing-subheading {
+    color: #ccc;
+    margin-bottom: 3rem;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pricing-card {
+    background-color: #1a1a1a;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  }
+  
+  .card-desc {
+    color: #aaa;
+    font-size: 0.95rem;
+    margin: 0.5rem 0 1rem;
+  }
+  
+  .price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .price span {
+    font-size: 1rem;
+    color: #aaa;
+  }
+  
+  .btn-outline {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.5rem 1.25rem;
+    border-radius: 999px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    color: #ccc;
+    font-size: 0.9rem;
+  }
+  
+  .features li {
+    margin-bottom: 0.75rem;
+    position: relative;
+    padding-left: 1.25rem;
+  }
+  
+  .features li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #55d88b;
+  }
+.professional-card {
+    background-color: #142f32;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+  }
+  
+  .btn-filled {
+    background-color: #b7f5cd;
+    color: #000;
+    padding: 0.6rem 1.5rem;
+    border-radius: 999px;
+    font-weight: 600;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+  }    
+
+  @media (min-width: 768px) {
+    .pricing-cards {
+      flex-direction: row;
+    }
+  }

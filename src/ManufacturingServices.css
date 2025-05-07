@@ -1,0 +1,142 @@
+.services-section {
+    background-color: #153438;
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .services-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .services-header p {
+    color: #cccccc;
+    margin-top: 0.5rem;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 2rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .service-card {
+    background-color: #254042;
+    height: 220px;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+  }
+  .service-card h3{
+    text-align: start;
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .service-card p{
+    text-align: start;
+    justify-content: end;
+    font-size: 14px;
+    margin-top: 16px;
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .service-icon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 1rem;
+  }
+
+
+
+  .key-benefits-section {
+    background-color: #f5f9f6;
+    padding: 4rem 1rem;
+    gap: 100px;
+  }
+  
+  .key-benefits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .benefits-image{
+    width: 70%;
+    background-color: rgb(249, 246, 246);
+  }
+
+  .benefits-image img {
+    max-width: 90%;
+    height: auto;
+  }
+  
+  .benefits-content {
+    max-width: 600px;
+  }
+  
+  .benefits-content h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  .intro-text {
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  .benefits-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .check-icon {
+    background-color: #17856c;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 0.25rem;
+  width: 2rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  
+  .benefits-list strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+  }
+  
+  .benefits-list p {
+    margin: 0;
+    color: #444;
+    font-size: 0.95rem;
+  }  
+
+  @media (min-width: 768px) {
+    .key-benefits-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }

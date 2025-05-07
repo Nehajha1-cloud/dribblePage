@@ -1,0 +1,146 @@
+/* Header.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgb(255, 253, 253);
+    color: black;
+    font-weight: bold;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  position: relative; /* Needed for positioning underline */
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+
+  .list{
+    font-weight: 100 !important;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .signup button {
+    background-color: #142f32;
+    padding: 8px 20px; /* Adjust padding to make the button look more like a button */
+    border-radius: 25px; /* Rounded but not fully circular */
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    height: 50px;
+  }
+  
+  .signup button:hover {
+    background-color: #28393b;
+  }
+
+ /* Base state - hidden toggle elements */
+.nav-toggle,
+.hamburger,
+.close-icon {
+  display: none;
+}
+  
+
+  @media (max-width: 768px) {
+/* Hamburger button */
+.hamburger {
+  display: block;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;  /* Ensure it’s above other content */
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+      padding: 16px;
+      position: relative;
+    }
+    .logo{
+      margin-left: 38px;
+    }
+    .nav-links {
+      display: flex;  /* Hidden by default */
+      flex-direction: column;
+      align-items: flex-start;
+      width: 250px;  /* Width of the slide-out menu */
+      background: #fff;
+      padding: 20px;
+      position: fixed;  /* Fixed to the left */
+      top: 0;
+      left: -250px;  /* Start hidden off-screen */
+      z-index: 1000;
+      height: auto;  /* Adjust the height based on the content */
+      box-sizing: border-box;
+      transition: left 0.3s ease;  /* Smooth transition */
+    }
+    /* Show the nav when the 'show' class is added */
+    .nav-links.show
+    {
+     display: flex;
+     left: 100px;
+     top: 90px;
+   }
+
+  .nav-links ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;  /* Remove bullet points */
+  }
+  .nav-links li {
+    text-align: center;  /* Center links inside the menu */
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;  /* Separator between items */
+  }
+
+
+    .signup button {
+      display: flex;
+    padding: 6px 14px;
+    font-size: 14px;
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    text-align: center;
+    }
+  }
