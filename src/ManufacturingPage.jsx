@@ -29,6 +29,20 @@ const ManufacturingPage = () => {
       </span>
     </div>
 
+     <div className="icon-wrapper">
+  <div className="icon left">
+  <div className="circle-btn">✦</div>
+    <div className="circle-btn2">↗</div>
+  </div>
+
+  <div className="icon right">
+    <div className="circle-btnn">📊</div>
+  </div>
+  <div className="icon right1">
+    <div className="circle-btn4">〰️</div>
+  </div>
+  </div>  
+
     <div className="card-row">
         <div className="card tall image-card">
           <img src={Pipe} alt="Pipes" />

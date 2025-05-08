@@ -78,7 +78,14 @@
     content: '✔';
     position: absolute;
     left: 0;
-    color: #55d88b;
+    color: black;
+    background-color: white;
+    width: 0.8rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 .professional-card {
     background-color: #142f32;
