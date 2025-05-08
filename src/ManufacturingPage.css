@@ -264,4 +264,68 @@
     margin-right: 350px;
   }
 
+  @media (max-width: 768px) {
+    .card-row {
+      flex-wrap: wrap;              /* Allow wrapping on small screens */
+      justify-content: center;
+      align-items: center;          /* Align items to center instead of bottom */
+      overflow-x: hidden;           /* Remove horizontal scroll */
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .card {
+      width: 100% !important;       /* Override fixed widths */
+      max-width: 320px;             /* Limit max width */
+      margin: 0 auto;               /* Center cards */
+      margin-bottom: 1.5rem;
+    }
+  
+    /* Optionally, adjust heights for smaller screens */
+    .tall,
+    .medium,
+    .short {
+      height: auto;
+    }
+  
+    .image-card img {
+      height: auto;
+    }
+
+
+    .icon-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      position: static;
+    }
+  
+    .icon {
+      position: static;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin: 0;
+    }
+    .circle-btn,
+    .circle-btn2,
+    .circle-btnn,
+    .circle-btn4 {
+      position: static;
+      margin: 0;
+    }
+  
+    /* Optional: shrink buttons a bit on small screens */
+    .circle-btn,
+    .circle-btn2,
+    .circle-btnn,
+    .circle-btn4{
+      width: 36px;
+      height: 36px;
+      font-size: 16px;
+    }
+}
+  
+
   
