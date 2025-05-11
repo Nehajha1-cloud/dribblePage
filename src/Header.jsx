@@ -12,14 +12,14 @@ const Header = () => {
   return (
     <header className="header">
 
-<button className="hamburger" onClick={toggleMenu}>
-        {menuOpen ? '✕' : '☰'}
-      </button>
+    <button className="hamburger" onClick={toggleMenu}>
+      {menuOpen ? '✕' : '☰'}
+    </button>
+    <div className="logo">
+      <img src={prodmast} alt="Logo" />
+      <span>Prodcast</span>
+    </div>
 
-        <div className="logo">
-          <img src={prodmast} alt="Logo" />
-          <span>Prodcast</span>
-        </div>
 
       <nav className={`nav-links ${menuOpen ? 'show' : ''}`}>
         <ul>
@@ -32,6 +32,7 @@ const Header = () => {
       <div  className="signup">
         <button>Sign Up</button>
       </div>
+
     </header>
   );
 }

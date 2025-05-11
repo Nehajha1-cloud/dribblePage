@@ -2,6 +2,8 @@
 import React from 'react';
 import './IntegrationPage.css';
 
+import researchIcon from './assets/logo/researchIcon.png';
+
 const IntegrationPage = () => {
   return (
     <div className="integration-container">
@@ -19,11 +21,12 @@ const IntegrationPage = () => {
           </div>
           <div className="icons-block">
             <div className="icons-circle">
-              {/* Replace src with actual logos as needed */}
               {Array.from({ length: 10 }).map((_, i) => (
-                <div key={i} className="icon-placeholder">🔗</div>
+                <div key={i} className="icon-placeholder">
+                  <img src={researchIcon} alt='icon'></img>
+                </div>
               ))}
-            </div>
+            </div> 
           </div>
         </div>
       </section>

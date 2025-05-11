@@ -1,5 +1,5 @@
 .manufacturing-page {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Manrope', sans-serif;
     text-align: center;
     padding: 2rem;
     background: #f7fbfa;
@@ -28,6 +28,7 @@
     font-weight: bold;
     margin: 0 1rem;
     cursor: pointer;
+    font-family: 'Manrope';
   }
   
   .get-started {
@@ -191,7 +192,6 @@
     top: -3rem;
     margin-right: 2rem;
   }
-  
   .circle-btn {
     width: 40px;
     height: 40px;
@@ -296,7 +296,7 @@
     .icon-wrapper {
       display: flex;
       justify-content: center;
-      gap: 2rem;
+      gap: 10rem;
       padding: 1rem 0;
       position: static;
     }
@@ -308,6 +308,7 @@
       gap: 1rem;
       margin: 0;
     }
+
     .circle-btn,
     .circle-btn2,
     .circle-btnn,
@@ -324,6 +325,10 @@
       width: 36px;
       height: 36px;
       font-size: 16px;
+    }
+    
+    .circle-btnn{
+      margin-bottom: 1rem;
     }
 }
   
