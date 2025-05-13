@@ -36,6 +36,7 @@
     background-color: #d7f8c7;
     border-radius: 16px;
     padding: 2rem;
+    margin-top: 10px;
   }
   
   .icons-circle {
@@ -90,3 +91,8 @@
     background-color: #b2e6a1;
   }
   
+  @media (min-width:768px){
+    .text-block {
+    margin-bottom: 24px; /* Or whatever spacing you want */
+  }
+  }

@@ -1,4 +1,3 @@
-// IntegrationPage.jsx
 import React from 'react';
 import './IntegrationPage.css';
 
