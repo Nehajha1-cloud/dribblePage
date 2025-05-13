@@ -2,7 +2,7 @@
     background-color: #282930;
     color: #ccc;
     padding: 3rem 2rem 2rem;
-    font-family: Arial, sans-serif;
+    font-family:'Manrope', sans-serif;
   }
   
   .footer-top {
@@ -73,7 +73,7 @@
   .footer-bottom {
     margin-top: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     font-size: 0.85rem;
     color: #999;
@@ -87,5 +87,15 @@
   
   .footer-links-inline a:hover {
     text-decoration: underline;
+    margin-bottom: 20px;
   }
-  
+  @media (width: 768px) {
+   .footer-links {
+    display:contents;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+  }
+.footer-links-inline{
+  margin-top: 50px;
+}
+}

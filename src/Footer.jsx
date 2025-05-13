@@ -47,7 +47,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div className='list'>
             <h4>Get In Touch</h4>
             <p>hallo@prodmast.com</p>
             <div className="social-icons">
