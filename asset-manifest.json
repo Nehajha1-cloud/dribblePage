@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dribblePage/static/css/main.fa56d5e8.css",
+    "main.css": "/dribblePage/static/css/main.2c50b0a7.css",
     "main.js": "/dribblePage/static/js/main.f319c2e8.js",
     "static/js/453.86aec921.chunk.js": "/dribblePage/static/js/453.86aec921.chunk.js",
     "static/media/Pipes.jpg": "/dribblePage/static/media/Pipes.a3bf8f5e6db883bb658d.jpg",
     "static/media/podmast.png": "/dribblePage/static/media/podmast.6c913cd540696101a43f.png",
     "static/media/state.png": "/dribblePage/static/media/state.295c4a9c491c1d346c71.png",
     "index.html": "/dribblePage/index.html",
-    "main.fa56d5e8.css.map": "/dribblePage/static/css/main.fa56d5e8.css.map",
+    "main.2c50b0a7.css.map": "/dribblePage/static/css/main.2c50b0a7.css.map",
     "main.f319c2e8.js.map": "/dribblePage/static/js/main.f319c2e8.js.map",
     "453.86aec921.chunk.js.map": "/dribblePage/static/js/453.86aec921.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa56d5e8.css",
+    "static/css/main.2c50b0a7.css",
     "static/js/main.f319c2e8.js"
   ]
 }
