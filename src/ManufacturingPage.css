@@ -21,7 +21,7 @@
   .buttons {
     margin: 2rem 0;
   }
-  
+
   .get-started, .try-demo {
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
@@ -36,11 +36,17 @@
     color: white;
     border: none;
   }
+  .get-started:hover{
+     background-color: #2f6956;
+  }
   
   .try-demo {
     background-color: white;
     color: #003e29;
     border: 1px solid #ccc;
+  }
+  .try-demo:hover{
+    background-color: rgb(239, 232, 232);
   }
 
   .rating {
